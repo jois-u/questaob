@@ -1,0 +1,12 @@
+while True:            #Cria um loop
+
+    nome = input("Qual seu nome? ")
+    idade = int(input("Qual sua idade? "))
+    sexo = input("Qual seu sexo? (M/F): ")
+
+    if idade > 21 and sexo != "F":            # Diz se o usuário foi selecionado
+        print(nome)
+
+
+    else:                                    #Diz que o usuário não foi selecionado
+        print("Não identificado.")
